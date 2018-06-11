@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="app.css">
+
+</head>
+
+
+<body>
+    <h1>Weather App</h1>
+
+    <input type="text" class="form-control" placeholder="Enter city name" aria-describedby="basic-addon1" id="cityInput">
+    <button id="getweather" class="btn-btn-primary">Get Weather</button>
+    <button id="getforecast" class="btn-btn-primary">Get Forecast</button>
+
+    <table style="width:100%" class="results-hide" id="resulttable">
+        <tr>
+            <th>Current Temp</th>
+            <th>Humidity</th>
+            <th>Pressure</th>
+        </tr>
+        <tr>
+            <td id="temp"></td>
+            <td id="humidity"></td>
+            <td id="pressure"></td>
+        </tr>
+    </table>
+
+
+
+<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+    <script src="work.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+h1
+{
+text-align: center;
+
+}
+body{
+
+
+    background-color:darkgray;
+}
+
+#abc
+{
+text-align: center;
+align-self: auto;
+
+
+}
+
+th{
+text-align: left;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+.box
+{
+
+background-blend-mode: color-burn;
+
+}
